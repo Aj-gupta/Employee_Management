@@ -1,0 +1,82 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddEmployee</servlet-name>
+  	<display-name>AddEmployee</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DatabaseInit</servlet-name>
+  	<display-name>DatabaseInit</display-name>
+  	<description></description>
+  	<servlet-class>controller.DatabaseInit</servlet-class>
+  	 <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddProject</servlet-name>
+  	<display-name>AddProject</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddProject</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddDepartment</servlet-name>
+  	<display-name>AddDepartment</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddDepartment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddJob</servlet-name>
+  	<display-name>AddJob</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddJob</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AssignProject</servlet-name>
+  	<display-name>AssignProject</display-name>
+  	<description></description>
+  	<servlet-class>controller.AssignProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DatabaseInit</servlet-name>
+  	<url-pattern>/init</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddEmployee</servlet-name>
+  	<url-pattern>/AddEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DatabaseInit</servlet-name>
+  	<url-pattern>/DatabaseInit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddProject</servlet-name>
+  	<url-pattern>/AddProject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddDepartment</servlet-name>
+  	<url-pattern>/AddDepartment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddJob</servlet-name>
+  	<url-pattern>/AddJob</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AssignProject</servlet-name>
+  	<url-pattern>/AssignProject</url-pattern>
+  </servlet-mapping>
+</web-app>
