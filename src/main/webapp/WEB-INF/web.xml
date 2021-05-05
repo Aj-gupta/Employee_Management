@@ -47,6 +47,42 @@
   	<description></description>
   	<servlet-class>controller.AssignProject</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>AddJobPayRate</servlet-name>
+  	<display-name>AddJobPayRate</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddJobPayRate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddEmployeeLeave</servlet-name>
+  	<display-name>AddEmployeeLeave</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddEmployeeLeave</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddDeduction</servlet-name>
+  	<display-name>AddDeduction</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddDeduction</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddBonus</servlet-name>
+  	<display-name>AddBonus</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddBonus</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddPayroll</servlet-name>
+  	<display-name>AddPayroll</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddPayroll</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddPayments</servlet-name>
+  	<display-name>AddPayments</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddPayments</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>DatabaseInit</servlet-name>
   	<url-pattern>/init</url-pattern>
@@ -78,5 +114,29 @@
   <servlet-mapping>
   	<servlet-name>AssignProject</servlet-name>
   	<url-pattern>/AssignProject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddJobPayRate</servlet-name>
+  	<url-pattern>/AddJobPayRate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddEmployeeLeave</servlet-name>
+  	<url-pattern>/AddEmployeeLeave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddDeduction</servlet-name>
+  	<url-pattern>/AddDeduction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddBonus</servlet-name>
+  	<url-pattern>/AddBonus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddPayroll</servlet-name>
+  	<url-pattern>/AddPayroll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddPayments</servlet-name>
+  	<url-pattern>/AddPayments</url-pattern>
   </servlet-mapping>
 </web-app>

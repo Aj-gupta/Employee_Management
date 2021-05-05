@@ -43,6 +43,7 @@ public class LoginController extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		String type = request.getParameter("type");
+
 		try {
 			Login result = EmployeeDAO.checkLoginDetails(email, password);
 			if(result != null) {
